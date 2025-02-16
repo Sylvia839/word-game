@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#game-board {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#french-words, #chinese-meanings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.word {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.word.selected {
+    background-color: #FF9800;
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#share-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
